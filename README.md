@@ -1,56 +1,42 @@
 # Chris Birch
 
-Quality-minded data engineer focused on effective collaboration through the lens of code quality, standards, automation, and maintainability.
+Data engineer — pipelines, warehousing, and the cloud platforms around them.
 
-## Languages
+Most of my data engineering is corporate and lives in private repositories, so it
+isn't on this profile. What's here is what I build off the clock: a personal
+software ecosystem, treated as production rather than as throwaway projects.
 
-- Python
-- SQL
-- HTML/CSS
-- Jinja templating
-- Bash
-- Scala
+## Selected work
 
-## Cloud Technologies
+**Platform & data**
+- **[ichrisbirch](https://github.com/datapointchris/ichrisbirch)** — personal
+  life-management platform: FastAPI + PostgreSQL + Vue, with an MCP server over the
+  same data. Tasks, habits, books, projects, events.
+- **[forge](https://github.com/datapointchris/forge)** — Go CLI running cross-repo
+  operations over a shared repo registry; the internal platform the rest of this
+  runs on.
 
-### AWS
+**Tools**
+- **[todoui](https://github.com/datapointchris/todoui)** — local-first project/task TUI in Go.
+- **[logsift](https://github.com/datapointchris/logsift)** — LLM-assisted log analysis CLI.
+- **[shadows](https://github.com/datapointchris/shadows)** — sync files that live in
+  a git repo but shouldn't be committed.
+- **[typos](https://github.com/datapointchris/typos)** — passive typing analyzer;
+  captures real prose keystrokes in Neovim and surfaces damaging patterns.
+- **[webviewrs](https://github.com/datapointchris/webviewrs)** — Rust webview wrapper.
+- **[toolbox](https://github.com/datapointchris/toolbox)** · **[theme](https://github.com/datapointchris/theme)** · **[font](https://github.com/datapointchris/font)** — CLI tooling for tool discovery and terminal theming.
 
-Hands on Experience with:
+**Writing**
+- **[chris-birch](https://github.com/datapointchris/chris-birch)** — my blog,
+  [chris-birch.com](https://chris-birch.com). Astro static site, custom design system.
 
-- Redshift
-- DynamoDB
-- EC2
-- S3
-- IAM
-- RDS
-- Kinesis
-- Glue
+A few larger pieces stay private: a Proxmox homelab, a content-synthesis engine
+(`relate`), a city-research app (`nomad`), and a structured-learning tracker.
 
-### Azure
+## Skills
 
-Hands on Experience with:
-
-- Entra ID - setting up service accounts
-- Data Factory
-- Storage Accounts
-- Azure Databricks
-
-### Databricks
-
-- Workspace Administration
-- Delta tables
-- Job orchestration
-
-## Technologies
-
-- Postgres
-- MongoDB
-- Linux
-- building APIs
-- Flask
-- FastAPI
-- general data science and machine learning concepts
-
-<p align="center">
-<a href="https://github.com/datapointchris"><img src="https://github-readme-activity-graph.vercel.app/graph?username=datapointchris&theme=react&hide_border=true"></a>
-</p>
+**Languages** — Python · SQL · Go · Bash · TypeScript · Scala
+**Data & pipelines** — PySpark · Polars · pandas · Databricks · Iceberg · Parquet · PostgreSQL
+**Cloud** — AWS (S3, Redshift, Glue, Lambda, Kinesis, EC2, IAM, RDS, DynamoDB) · Azure (Data Factory, Entra ID, Storage)
+**Modeling & serving** — dimensional modeling · FastAPI · Flask · REST APIs · MCP servers
+**Platform** — Linux · Docker · Terraform · git-based workflows
