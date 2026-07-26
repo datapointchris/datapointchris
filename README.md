@@ -78,16 +78,14 @@ deployed on a homelab, tested, and used every day.
 
 ### Smaller pieces
 
-[logsift](https://github.com/datapointchris/logsift) (LLM-assisted log analysis) ·
-[shadows](https://github.com/datapointchris/shadows) (sync files that live in a git
-repo but shouldn't be committed) ·
-[typos](https://github.com/datapointchris/typos) (passive typing analyzer for
-Neovim) · [sess](https://github.com/datapointchris/sess) (tmux session manager) ·
-[keymap-align](https://github.com/datapointchris/keymap-align) (ZMK keymap
-formatter) ·
-[markdown-toc.nvim](https://github.com/datapointchris/markdown-toc.nvim) ·
-[flexoki-moon-nvim](https://github.com/datapointchris/flexoki-moon-nvim) ·
-[webviewrs](https://github.com/datapointchris/webviewrs)
+- **[logsift](https://github.com/datapointchris/logsift)** — LLM-assisted log analysis.
+- **[shadows](https://github.com/datapointchris/shadows)** — sync files that live in a git repo but shouldn't be committed.
+- **[typos](https://github.com/datapointchris/typos)** — passive typing analyzer; captures real prose keystrokes in Neovim.
+- **[sess](https://github.com/datapointchris/sess)** — tmux session manager over live sessions, tmuxinator projects, and defaults.
+- **[keymap-align](https://github.com/datapointchris/keymap-align)** — aligns ZMK keymap bindings to the keyboard's physical layout.
+- **[markdown-toc.nvim](https://github.com/datapointchris/markdown-toc.nvim)** — generate and auto-update a table of contents.
+- **[flexoki-moon-nvim](https://github.com/datapointchris/flexoki-moon-nvim)** — Neovim colorscheme, dark and purple.
+- **[webviewrs](https://github.com/datapointchris/webviewrs)** — Rust webview wrapper.
 
 A few larger pieces stay private: a Proxmox homelab, a content-synthesis engine
 (`relate`), semantic search across every repo and note I own (`indy`), a
