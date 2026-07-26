@@ -81,7 +81,6 @@ deployed on a homelab, tested, and used every day.
 - **[logsift](https://github.com/datapointchris/logsift)** — LLM-assisted log analysis.
 - **[shadows](https://github.com/datapointchris/shadows)** — sync files that live in a git repo but shouldn't be committed.
 - **[typos](https://github.com/datapointchris/typos)** — passive typing analyzer; captures real prose keystrokes in Neovim.
-- **[sess](https://github.com/datapointchris/sess)** — tmux session manager over live sessions, tmuxinator projects, and defaults.
 - **[keymap-align](https://github.com/datapointchris/keymap-align)** — aligns ZMK keymap bindings to the keyboard's physical layout.
 - **[markdown-toc.nvim](https://github.com/datapointchris/markdown-toc.nvim)** — generate and auto-update a table of contents.
 - **[flexoki-moon-nvim](https://github.com/datapointchris/flexoki-moon-nvim)** — Neovim colorscheme, dark and purple.
