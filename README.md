@@ -87,7 +87,7 @@ deployed on a homelab, tested, and used every day.
 - **[webviewrs](https://github.com/datapointchris/webviewrs)** — Rust webview wrapper.
 
 A few larger pieces stay private: a Proxmox homelab, a content-synthesis engine
-(`digest`), a city-research app (`nomad`), and a structured-learning tracker.
+(`psyche`), a city-research app (`nomad`), and a structured-learning tracker.
 
 ## Skills
 
