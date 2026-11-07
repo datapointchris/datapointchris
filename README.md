@@ -42,7 +42,7 @@ deployed on a homelab, tested, and used every day.
   per-machine policy *would* do; acting on it is opt-in. Output is ordered so the
   repos needing attention land at the bottom, next to the prompt, rather than
   scrolling off the top.
-- **[todoui](https://github.com/datapointchris/todoui)** — Bubble Tea TUI for
+- **[projects](https://github.com/datapointchris/projects)** — Bubble Tea TUI for
   projects and tasks, on local SQLite with background sync to ichrisbirch. It never
   blocks on the network: changes made while the API is unreachable queue and retry
   themselves, and a pending refresh waits while you're mid-edit instead of moving
