@@ -11,12 +11,12 @@ deployed on a homelab, tested, and used every day.
 
 ### Platform
 
-- **[ichrisbirch](https://github.com/datapointchris/ichrisbirch)** — personal
-  life-management platform and the oldest thing here. FastAPI + PostgreSQL + Vue 3,
-  with Redis, a scheduler service, and a Streamlit chat interface behind Traefik:
-  tasks, habits, books, projects, events, articles, recipes. It deploys blue/green
-  on the homelab, so a push to `main` swaps container sets with zero downtime, and
-  `icb` — a Go CLI over the same API — is the front door for scripts and for Claude.
+- **[life](https://github.com/datapointchris/life)** — personal life-management
+  platform and the oldest thing here. FastAPI + PostgreSQL + Vue 3, with Redis and a
+  scheduler service behind Traefik: tasks, habits, books, events, articles, recipes,
+  countdowns. It deploys blue/green on my homelab, so a push to `main` swaps
+  container sets with zero downtime, and `life` — a Go CLI over the same API — is
+  the front door for scripts and for Claude.
 - **[dotfiles](https://github.com/datapointchris/dotfiles)** — one configuration
   tree for macOS, Arch Linux, and WSL, installed from a per-machine manifest.
   Configs are written once in `common/` and overridden only where a platform
@@ -42,11 +42,11 @@ deployed on a homelab, tested, and used every day.
   per-machine policy *would* do; acting on it is opt-in. Output is ordered so the
   repos needing attention land at the bottom, next to the prompt, rather than
   scrolling off the top.
-- **[projects](https://github.com/datapointchris/projects)** — Bubble Tea TUI for
-  projects and tasks, on local SQLite with background sync to ichrisbirch. It never
-  blocks on the network: changes made while the API is unreachable queue and retry
-  themselves, and a pending refresh waits while you're mid-edit instead of moving
-  the ground under you.
+- **[projects](https://github.com/datapointchris/projects)** — CLI and Bubble Tea
+  TUI for personal projects, the items that make each one up, and the dependencies
+  between them. It runs on local SQLite with no network, or against its own API on
+  Postgres. Both modes serve the API's own routes, so a refusal or a `--json` answer
+  is the same either way.
 - **[forge](https://github.com/datapointchris/forge)** — runs commands and managed
   scripts across every repo in a shared registry. The scripts are embedded in the
   binary, so a fresh machine gets the entire library from one `go install` — nothing
@@ -71,7 +71,7 @@ deployed on a homelab, tested, and used every day.
   out — no videos, streaks, badges, or motivational copy.
 - **[chris-birch](https://github.com/datapointchris/chris-birch)** — my blog,
   [chris-birch.com](https://chris-birch.com). Astro static site with a design system
-  ported from ichrisbirch: 14 themes and 14 self-hosted fonts, switchable at
+  ported from life: 14 themes and 14 self-hosted fonts, switchable at
   runtime and applied before first paint so there's no flash of the wrong theme.
 - **[timeline](https://github.com/datapointchris/timeline)** — interactive
   historical timeline with relationship mapping (Vue 3).
